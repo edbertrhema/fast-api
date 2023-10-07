@@ -22,7 +22,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return{"message":"hello world"}
+    return{"message":"hello world docker"}
 
 app.include_router(auth.router)
 app.include_router(products.router)
